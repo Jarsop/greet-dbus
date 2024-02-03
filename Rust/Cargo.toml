@@ -1,0 +1,16 @@
+[package]
+name = "je-sappel-greet"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.12.0", features = ["attributes"] }
+zbus = "3.14.1"
+
+[profile.release]
+lto = true
+opt-level = "z"
+strip = "debuginfo"
+codegen-units = 1

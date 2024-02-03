@@ -1,0 +1,32 @@
+ cabal-version:       2.2
+
+ name:                je-sappel-greet
+ version:             0.1.0.0
+ -- synopsis:
+ -- description:
+ homepage:            https://github.com/Jarsop/greet-dbus
+ license:             BSD-3-Clause
+ license-file:        LICENSE
+ author:              Jean-Pierre Geslin
+ maintainer:          jarsop@outlook.com
+ copyright:           2024 Jean-Pierre Geslin
+ category:            Service
+ build-type:          Simple
+ extra-source-files:  README.md
+                      CHANGELOG.md
+
+ executable je-sappel-greet
+   hs-source-dirs:      src
+   main-is:             Main.hs
+   default-language:    Haskell2010
+   build-depends:       base >= 4.7 && < 5
+                        , dbus >=1.2.16
+   ghc-options:         -Wall
+                        -Wcompat
+                        -Widentities
+                        -Wincomplete-record-updates
+                        -Wincomplete-uni-patterns
+                        -Wmissing-export-lists
+                        -Wmissing-home-modules
+                        -Wpartial-fields
+                        -Wredundant-constraints
