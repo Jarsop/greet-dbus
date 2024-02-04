@@ -1,0 +1,5 @@
+(executable
+  (name je-sappel-greet)
+  (flags (:standard -w -24))
+  (libraries obus lwt lwt.unix lwt_ppx)
+  (preprocess (pps lwt_ppx)))
