@@ -11,3 +11,4 @@ Currently:
 - Haskell
 - OCaml
 - Ruby
+- JavaScript
