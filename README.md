@@ -10,3 +10,4 @@ Currently:
 - Python
 - Haskell
 - OCaml
+- Ruby

@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rexml (3.2.6)
+    ruby-dbus (0.23.1)
+      rexml
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  ruby-dbus (~> 0.23.1)
+
+BUNDLED WITH
+   2.3.7
